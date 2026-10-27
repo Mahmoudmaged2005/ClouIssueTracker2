@@ -9,7 +9,7 @@ const API_BASE_URL = isLocal
 // Lab 5 Part 15: Turnstile site key (public). Locally use Cloudflare's test key.
 const TURNSTILE_SITE_KEY = isLocal
   ? '1x00000000000000000000AA'
-  : 'YOUR-TURNSTILE-SITE-KEY';
+  : '0x4AAAAAAFn5TL7nuf2RZIfZ';
 
 const issueForm = document.querySelector('#issue-form');
 const titleInput = document.querySelector('#title');
